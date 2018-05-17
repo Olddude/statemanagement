@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "target": "es5",
+    "baseUrl": "./src",
+    "outDir": "./dist",
+    "inlineSourceMap": true,
+    "module": "commonjs",
+    "lib": [
+      "dom.iterable",
+      "es2017"
+    ]
+  },
+  "exclude": [
+    "./node_modules/**"
+  ]
+}
